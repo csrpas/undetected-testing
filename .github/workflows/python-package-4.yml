@@ -1,4 +1,4 @@
-name: CI build 3
+name: CI build 3 macos
 
 on:
   schedule:
