@@ -80,9 +80,9 @@ jobs:
       run: |
         python raw_priceline.py --debug
 
-    - name: Run python raw_planetmc.py --debug
+    - name: Run python raw_gitlab.py --debug
       run: |
-        python raw_planetmc.py --debug
+        python raw_gitlab.py --debug
 
     - name: Run python raw_gt_2.py --debug
       run: |
