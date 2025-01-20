@@ -7,6 +7,7 @@ with SB(uc=True, test=True, locale_code="en") as sb:
     sb.sleep(10)
     sb.uc_click('input#MasterGC_ContentBlockHolder_cmdNit')
     sb.sleep(20)
-    sb.cdp.gui_click_element("#MasterGC_ContentBlockHolder_divCaptcha div")
+    #sb.cdp.gui_click_element("#MasterGC_ContentBlockHolder_divCaptcha div")
+    sb.cdp.gui_click_captcha()
     sb.sleep(10)
     print(sb.get_text("//*[@id='MasterGC_ContentBlockHolder_lblNombreProv']"))
