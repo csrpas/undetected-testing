@@ -85,6 +85,9 @@ jobs:
     - name: Run python raw_priceline.py --debug
       run: |
         python raw_priceline.py --debug
+    - name: Run python raw_planetmc.py --debug
+      run: |
+        python raw_planetmc.py --debug
     - name: Run python raw_gt_2.py --debug
       run: |
         python raw_gt_2.py --debug
