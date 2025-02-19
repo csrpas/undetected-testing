@@ -87,6 +87,9 @@ jobs:
     - name: Run python my_socialblade.py --debug
       run: |
         python my_socialblade.py --debug
+    - name: Run python raw_gt_double.py --debug
+      run: |
+          python raw_gt_double.py --debug
     - name: Run python raw_rg.py --debug
       run: |
         python raw_rg.py --debug
